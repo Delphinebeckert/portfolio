@@ -54,19 +54,26 @@ a:hover {
     text-decoration: underline;
 }
 
-.cv-section {
+cv-section {
     display: flex;
+    align-items: center;          /* centre images par rapport au bloc blanc */
     justify-content: space-between;
-    align-items: center;          /* centre verticalement images + texte */
     width: 100%;
-    padding: 40px 0;
+    padding: 60px 0;
+}
+
+/* Conteneur central pour aligner le bloc blanc */
+.cv-centre {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 /* Bloc blanc : même taille que les autres sections */
 .cv-texte {
     background-color: white;
-    max-width: 900px;             /* MÊME largeur que section */
-    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
     padding: 25px;
     border-radius: 6px;
     text-align: center;
@@ -74,6 +81,6 @@ a:hover {
 
 /* Images sur le beige */
 .cv-section .photo {
-    width: 220px;                 /* plus grandes */
+    width: 260px;                 /* images bien visibles */
     height: auto;
 }
