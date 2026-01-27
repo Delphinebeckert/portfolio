@@ -91,3 +91,8 @@ section {
 .cv-section .photo:last-child {
     right: 90px;
 }
+.cv-centre {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
