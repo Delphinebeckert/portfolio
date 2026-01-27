@@ -58,17 +58,21 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    width: 100%;
+    padding: 40px 20px;
 }
 
-/* Texte au centre */
+/* Bloc texte blanc centré */
 .cv-texte {
-    flex: 1;
+    background-color: white;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 6px;
     text-align: center;
 }
 
-/* Photos gauche et droite */
+/* Images sur le beige */
 .cv-section .photo {
-    width: 160px;
+    width: 150px;
     border-radius: 10px;
 }
