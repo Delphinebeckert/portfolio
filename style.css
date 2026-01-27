@@ -53,46 +53,24 @@ section {
     border-radius: 6px;
 }
 .cv-section {
-    position: relative;        /* référence pour les images */
-    width: 100%;
-    margin: 0;
-    padding: 60px 0;
-
     display: flex;
-    justify-content: center;   /* centre le bloc blanc */
-    align-items: center;       /* centre verticalement */
-    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 30px;
 }
-/* Texte centré dans un bloc blanc */
+
+/* Bloc texte blanc */
 .cv-texte {
     background-color: white;
-    max-width: 900px;     /* largeur bloc identique aux autres */
     padding: 25px;
     border-radius: 6px;
     text-align: center;
-    position: relative;
-    z-index: 2; /* au-dessus du fond */
-}
-
-/* Images “hors” du bloc blanc, aux extrémités */
-.cv-section .photo {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 240px; /* image plus grande */
-}
-
-/* Image gauche */
-.cv-section .photo:first-child {
-    left: 90px;
-}
-
-/* Image droite */
-.cv-section .photo:last-child {
-    right: 90px;
-}
-.cv-centre {
     flex: 1;
-    display: flex;
-    justify-content: center;
+}
+
+/* Images visibles et propres */
+.cv-section .photo {
+    width: 180px;
 }
