@@ -74,3 +74,14 @@ section {
 .cv-section .photo {
     width: 180px;
 }
+.source-image a {
+    color: #8b5e3c; /* beige/marron actuel */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Hover = bordeaux du header */
+.source-image a:hover {
+    color: #7a1f2b;
+    text-decoration: underline;
+}
