@@ -1,12 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    background-color:  #f2e6d8;
     color: #000;
 }
 
-/* En-tête */
 header {
     background-color: #2c3e50;
     color: white;
@@ -24,7 +22,6 @@ header p {
     font-size: 1.1em;
 }
 
-/* Sections */
 section {
     background-color: white;
     max-width: 900px;
@@ -33,14 +30,12 @@ section {
     border-radius: 6px;
 }
 
-/* Titres */
 h2 {
     color: #c2a27a;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
 }
 
-/* Listes */
 ul {
 list-style-type: none;
     padding-left: 15px;
@@ -50,7 +45,6 @@ li {
     margin-bottom: 12px;
 }
 
-/* Liens */
 a {
     color: #2c3e50;
     text-decoration: none;
