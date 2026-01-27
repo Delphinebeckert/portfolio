@@ -22,14 +22,6 @@ header p {
     font-size: 1.1em;
 }
 
-section {
-    background-color: white;
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 25px;
-    border-radius: 6px;
-}
-
 h2 {
     color: #8b5e3c;
     border-bottom: 2px solid #ddd;
@@ -53,17 +45,24 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-/* Conteneur CV pleine largeur */
-.cv-section {
-    display: flex;
-    justify-content: center; /* centre le texte */
-    align-items: center;
-    width: 100%;
-    padding: 60px 0;
-    position: relative; /* nécessaire pour positionner les images */
+section {
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 6px;
 }
+.cv-section {
+    position: relative;        /* référence pour les images */
+    width: 100%;
+    margin: 0;
+    padding: 60px 0;
 
+    display: flex;
+    justify-content: center;   /* centre le bloc blanc */
+    align-items: center;       /* centre verticalement */
+    background-color: transparent;
+}
 /* Texte centré dans un bloc blanc */
 .cv-texte {
     background-color: white;
