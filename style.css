@@ -33,9 +33,37 @@ main section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px 10%;
+    padding: 40px 0;
+    background-color: #f3e7d3; /* fond de page uniforme */
 }
 
+main section .section-content {
+    background-color: white;
+    max-width: 900px;
+    width: 90%;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Spacing entre sections */
+main section:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+/* Adaptation spécifique de la section CV */
+.cv-section {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cv-section .photo {
+    width: 160px;
+}
+
+.cv-texte {
+    text-align: center;
+}
 /* Boîte blanche centrée */
 .section-content {
     background-color: white;
