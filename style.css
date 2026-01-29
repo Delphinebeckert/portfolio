@@ -110,3 +110,10 @@ main section {
 html {
     scroll-behavior: smooth;
 }
+.section-content {
+    background-color: white;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+}
