@@ -236,3 +236,14 @@ section {
     margin-top: 20px;
 }
 
+header,
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* éviter que le nav cache le contenu */
+main {
+    padding-top: 20px;
+}
