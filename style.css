@@ -313,6 +313,8 @@ footer {
 }
 
 .site-header,
-.site-header nav {
-    position: static;
+.site-header nav,
+header,
+nav {
+    position: static !important;
 }
