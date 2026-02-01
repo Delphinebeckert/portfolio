@@ -147,7 +147,11 @@ section {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-top: 25px;
+    margin-top: 25px
+}
+skill-btn {
+    color: white;
+
 }
 
 .skill-btn {
