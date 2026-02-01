@@ -306,3 +306,15 @@ nav {
     top: 0;
     z-index: 1000;
 }
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#about,
+#skills,
+#projects,
+#contact {
+    scroll-margin-top: 70px;
+}
