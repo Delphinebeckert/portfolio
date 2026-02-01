@@ -298,8 +298,8 @@ footer {
 }
 #random-image {
     width: 100%;
-    max-width: 450px;   
-    height: 140px;      
+    max-width: 250px;   
+    height: 80px;      
     object-fit: cover;
     display: block;
     margin: 20px auto;
