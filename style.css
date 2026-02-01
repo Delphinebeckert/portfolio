@@ -149,10 +149,7 @@ section {
     flex-wrap: wrap;
     margin-top: 25px
 }
-skill-btn {
-    color: white;
 
-}
 
 .skill-btn {
     background-color: #7a1f2b;  
@@ -166,6 +163,7 @@ skill-btn {
         transform 0.2s ease,
         background-color 0.2s ease,
         box-shadow 0.2s ease;
+      color: white;
 }
 
 /* Survol */
@@ -310,11 +308,7 @@ nav {
     top: 0;
     z-index: 1000;
 }
-nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
+
 
 #about,
 #skills,
