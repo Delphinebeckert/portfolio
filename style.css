@@ -282,3 +282,8 @@ nav {
     transform: translateY(-4px);
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
+.contact-note {
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.8;
+}
