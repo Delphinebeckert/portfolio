@@ -291,7 +291,7 @@ header,
 nav,
 footer {
     background-color: rgba(122, 31, 43, 0.55);
-    backdrop-filter: blur(8px);
+
 }
 #random-image {
     width: 100%;
