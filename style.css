@@ -287,10 +287,13 @@ nav {
     font-style: italic;
     opacity: 0.8;
 }
-header,
-nav,
+.site-header {
+    background-color: rgba(122, 31, 43, 0.55);
+}
+
 footer {
     background-color: rgba(122, 31, 43, 0.55);
+}
 
 }
 #random-image {
